@@ -24,34 +24,85 @@ html {
 }
 
 
-
 .nav {
     position: fixed; 
     top: 0px;
     width: 100%;
     padding: 10px 20px;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
     border-bottom: solid 1px black;
     background: white;
-    z-index: 100;
 }
 
-.bild {
-    height: 85vh;
-    width: 30vh;
+
+.container{
     display: flex;
-    align-items:center; 
-    margin: 0vh 15vh ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section{
+    height: 100vh;
+}
+
+.control-width{
+    width: 70%;
 }
 
 .bild1 {
+    display: flex;
     width: 250px;
     height: 400px;
     margin: 20px;
 }
 
-.bild-text {
-    justify-content: stretch;
+.button{
+    padding-inline: 30px;
+}
+
+
+.sec2{
+}
+
+.titelwork{
+    display: flex;
+justify-content: center;
+}
+
+.chipsleder{
+display: flex;
+margin-top: 30px;
+justify-content: center;
+gap: 30px;
+}
+.chips{ 
+    padding: 2px 6px;
+border: solid 1px;
+border-radius: 20px;
+}
+.conbild{
+    margin-top: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1.5rem;
+}
+
+.divbild{
+width: 100%;
+height: 100%;
+}
+.divbild img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project{
+
+    width: 500px;
+    height: 500px;
 }
